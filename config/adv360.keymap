@@ -63,7 +63,7 @@
         &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none                                                                                                          &trans                 &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none
         &none &none        &none        &none        &none        &none        &bootloader                                                                                                    &bootloader            &none        &none        &none        &none        &none        &none
         &none &none        &none        &none        &none        &none        &rgb_ug RGB_MEFS_CMD 5                 &bt BT_CLR &bt BT_CLR             &bt BT_CLR &bt BT_CLR                 &rgb_ug RGB_MEFS_CMD 5 &none        &none        &none        &none        &none        &none
-        &none &none        &none        &none        &none        &none                               &none           &none      &none      &none &none &none      &none      &none                                  &none        &none        &none        &none        &none        &none
+        &none &none        &none        &none        &none        &none                                                          &none                  &none                                                        &none        &none        &none        &none        &none        &none
         &none &none        &none        &bl BL_INC   &bl BL_DEC                                       &rgb_ug RGB_TOG &bl BL_TOG &none                  &none      &bl BL_TOG &rgb_ug RGB_TOG                                     &bl BL_INC   &bl BL_DEC   &none        &none        &none
       >;
     };
@@ -72,7 +72,7 @@
         &trans &trans &trans &trans &trans &trans &tog 1                                                       &mo 3 &kp LBRC &trans    &trans &trans    &trans  &kp RBRC
         &trans &trans &trans &trans &trans &trans  &none                                                       &none &kp LBKT &trans    &trans &trans    &trans  &kp RBKT
         &trans &trans &trans &trans &trans &trans  &none        &trans &trans             &trans &trans        &none &kp LEFT &kp DOWN  &kp UP &kp RIGHT &trans  &trans
-        &trans &trans &trans &trans &trans &trans        &none  &none  &trans &none &none &trans &none  &none        &trans   &trans    &trans &trans    &trans  &trans
+        &trans &trans &trans &trans &trans &trans                      &trans             &trans                     &trans   &trans    &trans &trans    &trans  &trans
         &trans &trans &trans &trans &trans               &trans &trans &trans             &trans &trans &trans                &trans    &trans &trans    &trans  &trans
       >;
     };
